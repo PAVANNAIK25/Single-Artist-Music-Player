@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Music Player</title>
+</head>
+
+<body>
+    <header>
+        <!-- Logo image -->
+        <div class="logo-img">
+            <a href="#"><img src="./Images/logo.png" alt="Logo"></a>
+        </div>
+        <!-- Navigation Bar -->
+        <nav class="navbar">
+            <a href="#" class="text-white">Favorites</a></li>
+            <form action="" class="search push">
+                <button type="submit" class="br-none"><i class="fa-solid fa-magnifying-glass hover-link"></i></button>
+                <input type="text" placeholder="Search" class="text-white">
+                <button type="button" class="br-none"> <i class="fa-solid fa-microphone hover-link"></i></button>
+            </form>
+            <i class="fa-solid fa-bell text-white fa-lg hover-link"></i>
+        </nav>
+
+        <!-- User Profile Pic -->
+        <div class="profile-pic">
+            <img src="./Images/Profile_pic1.jpg" alt="profile-picture">
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- Header of Artist -->
+
+        <section class="body-header text-white">
+
+            <!-- Artist Hero Img -->
+
+            <div class="body-header-img">
+                <img src="./Images/Coldplay_500x500.jpg" alt="artist-img">
+            </div>
+
+            <div class="body-header-desc">
+                <div class="bd-heading">
+                    <h2 class="h2-heading"> ColdPlay</h2>
+                    <a class="body-header-subhead">British Band</a>
+                </div>
+                <p class="follower-text">851 Followers</p>
+                <p class="artist-desc">
+                    Coldplay are a British rock band formed in London in 1997. They consist of vocalist and pianist
+                    Chris Martin, guitarist Jonny Buckland, bassist Guy Berryman, drummer Will Champion and creative
+                    director Phil Harvey.[a] They met at University College London, initially calling themselves Big Fat
+                    Noises and changing to Starfish, before the current name.
+                </p>
+
+                <div>
+                    <button type="submit" class="play-all hover-link">Play All</button>
+                    <a class="text-white text-decoration tracks">247 Tracks|128 Albums</a>
+                </div>
+                <a href="#" class="text-decoration follow-link text-white hover-link">Follow</a>
+            </div>
+
+        </section>
+
+        <!-- Artist specific songs Queue -->
+        <section id="songs-queue">
+
+            <div class="img-height">
+                <span class="sr-no text-grey flex-center pos-play">01
+                    <span class="play-hover">
+                        <i class="fa-solid fa-circle-play fg-lg" style="color: #5c626a;"></i>
+                    </span>
+                </span>
+                <img src="./Images/Coldplay_playlist/A-Head-Full-of-Dreams-English.jpg" alt="song-chart">
+                <div class="song-name text-white">
+                    <span>Mirage</span>
+                    <span class="album-name text-grey">A Head Full of Dreams</span>
+                </div>
+                <span class="artist-name text-grey span-center flex-center">ColdPlay</span>
+                <span class="text-grey flex-center mr-left heart"><i class="fa-regular fa-heart fa-2x">
+                        <span class="dis-hov">
+                            <i class="fa-solid fa-heart" style="color: #e60f0f;"></i></i></span>
+                </span>
+                <span class="text-white flex-center">04:42</span>
+            </div>
+
+            <div class="img-height">
+                <span class="sr-no text-grey flex-center pos-play">02
+                    <span class="play-hover">
+                        <i class="fa-solid fa-circle-play fg-lg" style="color: #5c626a;"></i>
+                    </span>
+                </span>
+                <img src="./Images/Coldplay_playlist/A-Head-Full-of-Dreams-English.jpg" alt="song-chart">
+                <div class="song-name text-white">
+                    <span>Hymn for the Weekend</span>
+                    <span class="album-name text-grey">A Head Full of Dreams</span>
+                </div>
+                <span class="artist-name text-grey span-center flex-center">ColdPlay</span>
+                <span class="text-grey flex-center mr-left heart"><i class="fa-regular fa-heart fa-2x">
+                        <span class="dis-hov">
+                            <i class="fa-solid fa-heart" style="color: #e60f0f;"></i></i></span>
+                </span>
+                <span class="text-white flex-center">03:07</span>
+            </div>
+
+            <div class="img-height">
+                <span class="sr-no text-grey flex-center pos-play">03
+                    <span class="play-hover">
+                        <i class="fa-solid fa-circle-play fg-lg" style="color: #5c626a;"></i>
+                    </span>
+                </span>
+                <img src="./Images/Coldplay_playlist/Something-Just-Like.jpg" alt="song-chart">
+                <div class="song-name text-white">
+                    <span>Something Just Like This</span>
+                    <span class="album-name text-grey">Memories...Do Not Open</span>
+                </div>
+                <span class="artist-name text-grey span-center flex-center">ColdPlay</span>
+                <span class="text-grey flex-center mr-left heart"><i class="fa-regular fa-heart fa-2x">
+                        <span class="dis-hov">
+                            <i class="fa-solid fa-heart" style="color: #e60f0f;"></i></i></span>
+                </span>
+                <span class="text-white flex-center">04:05</span>
+            </div>
+
+            <div class="img-height">
+                <span class="sr-no text-grey flex-center pos-play">04
+                    <span class="play-hover">
+                        <i class="fa-solid fa-circle-play fg-lg" style="color: #5c626a;"></i>
+                    </span>
+                </span>
+                <img src="./Images/Coldplay_playlist/A-Sky-Full-of-Stars-English.jpg" alt="song-chart">
+                <div class="song-name text-white">
+                    <span>A Sky Full of Stars</span>
+                    <span class="album-name text-grey">A Sky Full of Stars</span>
+                </div>
+                <span class="artist-name text-grey span-center flex-center">ColdPlay</span>
+                <span class="text-grey flex-center mr-left heart"><i class="fa-regular fa-heart fa-2x">
+                        <span class="dis-hov">
+                            <i class="fa-solid fa-heart" style="color: #e60f0f;"></i></i></span>
+                </span>
+                <span class="text-white flex-center">04:12</span>
+            </div>
+
+
+            <div class="img-height">
+                <span class="sr-no text-grey flex-center pos-play">05
+                    <span class="play-hover">
+                        <i class="fa-solid fa-circle-play fg-lg" style="color: #5c626a;"></i>
+                    </span>
+                </span>
+                <img src="./Images/Coldplay_playlist/A-Head-Full-of-Dreams-English.jpg" alt="song-chart">
+                <div class="song-name text-white">
+                    <span>Paradise</span>
+                    <span class="album-name text-grey">Mylo Xyloto</span>
+                </div>
+                <span class="artist-name text-grey span-center flex-center">ColdPlay</span>
+                <span class="text-grey flex-center mr-left heart"><i class="fa-regular fa-heart fa-2x">
+                        <span class="dis-hov">
+                            <i class="fa-solid fa-heart" style="color: #e60f0f;"></i></i></span>
+                </span>
+                <span class="text-white flex-center">04:38</span>
+            </div>
+
+
+            <div class="img-height">
+                <span class="sr-no text-grey flex-center pos-play">06
+                    <span class="play-hover">
+                        <i class="fa-solid fa-circle-play fg-lg" style="color: #5c626a;"></i>
+                    </span>
+                </span>
+                <img src="./Images/Coldplay_playlist/Mylo-Xyloto.jpg" alt="song-chart">
+                <div class="song-name text-white">
+                    <span>Princess of China</span>
+                    <span class="album-name text-grey">Mylo Xyloto</span>
+                </div>
+                <span class="artist-name text-grey span-center flex-center">ColdPlay</span>
+                <span class="text-grey flex-center mr-left heart"><i class="fa-regular fa-heart fa-2x">
+                        <span class="dis-hov">
+                            <i class="fa-solid fa-heart" style="color: #e60f0f;"></i></i></span>
+                </span>
+                <span class="text-white flex-center">04:25</span>
+            </div>
+
+            <div class="img-height">
+                <span class="sr-no text-grey flex-center pos-play">07
+                    <span class="play-hover">
+                        <i class="fa-solid fa-circle-play fg-lg" style="color: #5c626a;"></i>
+                    </span>
+                </span>
+                <img src="./Images/Coldplay_playlist/A-Head-Full-of-Dreams-English.jpg" alt="song-chart">
+                <div class="song-name text-white">
+                    <span>Amry of one</span>
+                    <span class="album-name text-grey">A Head Full of Dreams</span>
+                </div>
+                <span class="artist-name text-grey span-center flex-center">ColdPlay</span>
+                <span class="text-grey flex-center mr-left heart"><i class="fa-regular fa-heart fa-2x">
+                        <span class="dis-hov">
+                            <i class="fa-solid fa-heart" style="color: #e60f0f;"></i></i></span>
+                </span>
+                <span class="text-white flex-center">06:16</span>
+            </div>
+
+
+        </section>
+
+    </main>
+
+    <aside>
+        <!-- Similar Top Artist -->
+
+        <section id="similar-artist">
+            <!-- Similar Artist Header -->
+            <div class="text-white sim-art-head">
+                <h2 class="h2-heading">Similar Artist</h2>
+                <p class="text-grey view-hov">View All</p>
+            </div>
+
+            <!-- Other Artist -->
+            <div class="artist-div">
+                <img src="./Images/Artists/Stay-English.jpg" alt="simlar-artist">
+                <div class="artist-name-rec text-white">
+                    <span>Justin Bieber</span>
+                    <span class="album-name text-grey">Stay</span>
+                </div>
+
+                <span class="text-grey elipse">
+                    <i class="fa-solid fa-ellipsis"></i>
+                </span>
+
+            </div>
+
+            <div class="artist-div">
+                <img src="./Images/Artists/Ed-Sheeran-Divide.jpg" alt="simlar-artist">
+                <div class="artist-name-rec text-white">
+                    <span>Ed Sheeran</span>
+                    <span class="album-name text-grey">Divide</span>
+                </div>
+
+                <span class="text-grey elipse">
+                    <i class="fa-solid fa-ellipsis"></i>
+                </span>
+
+            </div>
+
+            <div class="artist-div">
+                <img src="./Images/Artists/Harry-s-House-English.jpg" alt="simlar-artist">
+                <div class="artist-name-rec text-white">
+                    <span>Harry Styles</span>
+                    <span class="album-name text-grey">Harry's House</span>
+                </div>
+
+                <span class="text-grey elipse">
+                    <i class="fa-solid fa-ellipsis"></i>
+                </span>
+
+            </div>
+
+            <div class="artist-div">
+                <img src="./Images/Artists/Unstoppable-English-Sia.jpg" alt="simlar-artist">
+                <div class="artist-name-rec text-white">
+                    <span>Sia</span>
+                    <span class="album-name text-grey">Unstoppable</span>
+                </div>
+
+                <span class="text-grey elipse">
+                    <i class="fa-solid fa-ellipsis"></i>
+                </span>
+
+            </div>
+
+            <div class="artist-div">
+                <img src="./Images/Artists/Faded-English-Alan.jpg" alt="simlar-artist">
+                <div class="artist-name-rec text-white">
+                    <span>Alan Walker</span>
+                    <span class="album-name text-grey">Faded</span>
+                </div>
+
+                <span class="text-grey elipse">
+                    <i class="fa-solid fa-ellipsis"></i>
+                </span>
+
+            </div>
+
+            <div class="artist-div">
+                <img src="./Images/Artists/Faded-English-Alan.jpg" alt="simlar-artist">
+                <div class="artist-name-rec text-white">
+                    <span>Alan Walker</span>
+                    <span class="album-name text-grey">Faded</span>
+                </div>
+
+                <span class="text-grey elipse">
+                    <i class="fa-solid fa-ellipsis"></i>
+                </span>
+
+            </div>
+
+            <div class="artist-div">
+                <img src="./Images/Artists/Faded-English-Alan.jpg" alt="simlar-artist">
+                <div class="artist-name-rec text-white">
+                    <span>Alan Walker</span>
+                    <span class="album-name text-grey">Faded</span>
+                </div>
+
+                <span class="text-grey elipse">
+                    <i class="fa-solid fa-ellipsis"></i>
+                </span>
+
+            </div>
+
+        </section>
+
+        <!-- recently played songs -->
+
+        <section id="recently-played">
+
+            <div class="text-white rp-head">
+                <h2 class="h2-heading">Recently Played</h2>
+                <p class="text-grey view-hov">View All</p>
+            </div>
+
+            <div class="rp-songs-queue">
+                <span class="sr-no text-grey flex-center pos-play">01
+                    <span class="rp-play-hover">
+                        <i class="fa-solid fa-circle-play" style="color: #5c626a;"></i>
+                    </span>
+                </span>
+                <img src="./Images/Coldplay_playlist/Something-Just-Like.jpg" alt="song-chart">
+                <div class="rp-song-name text-white">
+                    <span>Something Just Like This</span>
+                    <span class="album-name text-grey">Memories...Do Not Open</span>
+                </div>
+                <span class="text-grey flex-center heart mr-left"><i class="fa-regular fa-heart fa-lg">
+                        <span class="rp-dis-hov">
+                            <i class="fa-solid fa-heart" style="color: #e60f0f;"></i></i></span>
+                </span>
+            </div>
+
+            <div class="rp-songs-queue">
+                <span class="sr-no text-grey flex-center pos-play">02
+                    <span class="rp-play-hover">
+                        <i class="fa-solid fa-circle-play" style="color: #5c626a;"></i>
+                    </span>
+                </span>
+                <img src="./Images/Evolve-English-ID.jpg" alt="song-chart">
+                <div class="rp-song-name text-white">
+                    <span>Believer </span>
+                    <span class="album-name text-grey">Evolve</span>
+                </div>
+                <span class="text-grey flex-center heart mr-left"><i class="fa-regular fa-heart fa-lg">
+                        <span class="rp-dis-hov">
+                            <i class="fa-solid fa-heart" style="color: #e60f0f;"></i></i></span>
+                </span>
+            </div>
+
+            <div class="rp-songs-queue">
+                <span class="sr-no text-grey flex-center pos-play">03
+                    <span class="rp-play-hover">
+                        <i class="fa-solid fa-circle-play" style="color: #5c626a;"></i>
+                    </span>
+                </span>
+                <img src="./Images/Artists/Ed-Sheeran-Divide.jpg" alt="song-chart">
+                <div class="rp-song-name text-white">
+                    <span>Perfect</span>
+                    <span class="album-name text-grey">Divide</span>
+                </div>
+                <span class="text-grey flex-center heart mr-left"><i class="fa-regular fa-heart fa-lg">
+                        <span class="rp-dis-hov">
+                            <i class="fa-solid fa-heart" style="color: #e60f0f;"></i></i></span>
+                </span>
+            </div>
+
+            <div class="rp-songs-queue">
+                <span class="sr-no text-grey flex-center pos-play">04
+                    <span class="rp-play-hover">
+                        <i class="fa-solid fa-circle-play" style="color: #5c626a;"></i>
+                    </span>
+                </span>
+                <img src="./Images/1989-English-Tyler-Swift.jpg" alt="song-chart">
+                <div class="rp-song-name text-white">
+                    <span>Blank Space</span>
+                    <span class="album-name text-grey">1989</span>
+                </div>
+                <span class="text-grey flex-center heart mr-left"><i class="fa-regular fa-heart fa-lg">
+                        <span class="rp-dis-hov">
+                            <i class="fa-solid fa-heart" style="color: #e60f0f;"></i></i></span>
+                </span>
+            </div>
+
+
+            <div class="rp-songs-queue">
+                <span class="sr-no text-grey flex-center pos-play">05
+                    <span class="rp-play-hover">
+                        <i class="fa-solid fa-circle-play" style="color: #5c626a;"></i>
+                    </span>
+                </span>
+                <img src="./Images/Evolve-English-ID.jpg" alt="song-chart">
+                <div class="rp-song-name text-white">
+                    <span>Thunder</span>
+                    <span class="album-name text-grey">Evolve</span>
+                </div>
+                <span class="text-grey flex-center heart mr-left"><i class="fa-regular fa-heart fa-lg">
+                        <span class="rp-dis-hov">
+                            <i class="fa-solid fa-heart" style="color: #e60f0f;"></i></i></span>
+                </span>
+            </div>
+
+            <div class="rp-songs-queue">
+                <span class="sr-no text-grey flex-center pos-play">06
+                    <span class="rp-play-hover">
+                        <i class="fa-solid fa-circle-play" style="color: #5c626a;"></i>
+                    </span>
+                </span>
+                <img src="./Images/Artists/Ed-Sheeran-Divide.jpg" alt="song-chart">
+                <div class="rp-song-name text-white">
+                    <span>Shape of you</span>
+                    <span class="album-name text-grey">Divide</span>
+                </div>
+                <span class="text-grey flex-center heart mr-left"><i class="fa-regular fa-heart fa-lg">
+                        <span class="rp-dis-hov">
+                            <i class="fa-solid fa-heart" style="color: #e60f0f;"></i></i></span>
+                </span>
+            </div>
+
+            <div class="rp-songs-queue">
+                <span class="sr-no text-grey flex-center pos-play">01
+                    <span class="rp-play-hover">
+                        <i class="fa-solid fa-circle-play" style="color: #5c626a;"></i>
+                    </span>
+                </span>
+                <img src="./Images/Coldplay_playlist/Something-Just-Like.jpg" alt="song-chart">
+                <div class="rp-song-name text-white">
+                    <span>Young</span>
+                    <span class="album-name text-grey">Memories...Do Not Open</span>
+                </div>
+                <span class="text-grey flex-center heart mr-left"><i class="fa-regular fa-heart fa-lg">
+                        <span class="rp-dis-hov">
+                            <i class="fa-solid fa-heart" style="color: #e60f0f;"></i></i></span>
+                </span>
+            </div>
+
+        </section>
+    </aside>
+
+    <!-- Player in Footer -->
+
+    <footer id="player">
+
+        <div class="songs-playing">
+            <img src="./Images/Coldplay_playlist/Something-Just-Like.jpg" alt="song-chart">
+            <div class="rp-song-name text-white">
+                <span>Young</span>
+                <span class="album-name text-grey">Memories...Do Not Open</span>
+            </div>
+            <span class="text-white flex-center heart mr-left"><i class="fa-regular fa-heart fa-lg">
+                    <span class="rp-dis-hov">
+                        <i class="fa-solid fa-heart" style="color: #e60f0f;"></i></i>
+            </span>
+            </span>
+
+        </div>
+
+        <div class="controller">
+
+            <div class="controls">
+                <i class="fa-solid fa-shuffle player-ele-hov"></i>
+                <i class="fa-solid fa-backward-step player-ele-hov"></i>
+                <i class="fa-regular fa-circle-play fa-2x player-ele-hov"></i>
+                <i class="fa-solid fa-forward-step player-ele-hov"></i>
+                <i class="fa-solid fa-repeat player-ele-hov"></i>
+                <div>
+                    <i class="fa-solid fa-volume-high player-ele-hov lg-screen"></i>
+                    <input type="range" class="seek seek-lg">
+                </div>
+
+            </div>
+            <div class="seek-container">
+                <span>1:39</span>
+                <input type="range" class="seek">
+                <span>4.44</span>
+            </div>
+
+        </div>
+
+        <div class="volume-controls">
+            <i class="fa-solid fa-volume-low player-ele-hov"></i>
+            <input type="range" class="seek">
+            <i class="fa-solid fa-volume-high player-ele-hov"></i>
+            <i class="fa-solid fa-up-right-and-down-left-from-center full-screen player-ele-hov"></i>
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
